@@ -18,7 +18,7 @@ torch.backends.cudnn.benchmark = True
 MODEL_LIST = {
 
     # models.mnasnet:models.mnasnet.__all__[1:],
-    models.resnet: models.resnet.__all__[5],
+    models.resnet: models.resnet.__all__[5]
     # models.densenet: models.densenet.__all__[1:],
     # models.squeezenet: models.squeezenet.__all__[1:],
     # models.vgg: models.vgg.__all__[1:],
