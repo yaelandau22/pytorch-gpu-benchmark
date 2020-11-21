@@ -17,13 +17,13 @@ torch.backends.cudnn.benchmark = True
 
 MODEL_LIST = {
 
-    models.mnasnet:models.mnasnet.__all__[1:],
-    models.resnet: models.resnet.__all__[1:],
-    models.densenet: models.densenet.__all__[1:],
-    models.squeezenet: models.squeezenet.__all__[1:],
-    models.vgg: models.vgg.__all__[1:],
-    models.mobilenet:models.mobilenet.__all__[1:],
-    models.shufflenetv2:models.shufflenetv2.__all__[1:]
+    # models.mnasnet:models.mnasnet.__all__[1:],
+    models.resnet: models.resnet.resnet152,
+    # models.densenet: models.densenet.__all__[1:],
+    # models.squeezenet: models.squeezenet.__all__[1:],
+    # models.vgg: models.vgg.__all__[1:],
+    # models.mobilenet:models.mobilenet.__all__[1:],
+    # models.shufflenetv2:models.shufflenetv2.__all__[1:]
 }
 
 precisions=["float","half",'double']
