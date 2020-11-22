@@ -1,0 +1,14 @@
+benchmark start : 2020/11/22 02:12:06
+system_configs
+
+uname_result(system='Linux', node='gil-ml01', release='5.4.0-52-generic', version='#57-Ubuntu SMP Thu Oct 15 10:57:00 UTC 2020', machine='x86_64', processor='x86_64')
+scpufreq(current=2514.489109375, min=1000.0, max=3700.0)
+cpu_count: 64
+memory_available: 148530991104
+gpu_configs
+
+Number of GPUs on current device : 4
+CUDA Version : 10.2
+Cudnn Version : 7605
+Device Name : GeForce RTX 2080 Ti
+benchmark end : 2020/11/22 02:46:31
